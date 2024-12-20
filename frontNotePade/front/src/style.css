@@ -1,0 +1,38 @@
+body{
+    background-color: whitesmoke;
+}
+.nav-font{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.note{
+
+    font-size: 14px !important;
+    font-family: "Lora", cursive;
+    font-weight: 400;
+    font-style: inherit;
+    color: #0c0c0c;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    filter: brightness(120%);
+}
+#card{
+    background-color: #89a1d1;
+}
+.modal-content{
+    font-size: 14px !important;
+    font-family: "Lora", cursive;
+    font-weight: 400;
+    font-style: inherit;
+    color: #0c0c0c;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    filter: brightness(120%);
+}
+.modal-header{
+    background-color:blue ;
+}
