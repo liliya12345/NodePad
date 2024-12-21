@@ -10,19 +10,8 @@ export default function Home(props) {
         <>
             <Header/>
 
-            <div className="m-0  w-100"
-                 >
-                <Container className="my-0  w-100">
-                    <Row>
-                        <Col lg={3} xs={6} className="justify-content-center  text-center note my-5">
-                            <Cards/>
-                        </Col>
 
-
-                    </Row>
-
-                </Container>
-            </div>
+            <Cards/>
 
 
         </>
