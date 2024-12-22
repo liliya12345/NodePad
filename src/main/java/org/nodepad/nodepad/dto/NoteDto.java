@@ -1,28 +1,27 @@
 package org.nodepad.nodepad.dto;
 
-
-
-import lombok.*;
-
-import java.time.LocalDateTime;
+import java.util.Date;
 
 public class NoteDto {
         private int id;
         private String title;
-        private String time;
+        private Date time;
 
-        public NoteDto(String title, String time) {
-                this.title = title;
-                this.time = time;
-        }
-
-        public NoteDto(int id, String title, String time) {
+        public NoteDto(int id, String title, Date time) {
                 this.id = id;
                 this.title = title;
                 this.time = time;
         }
 
         public NoteDto() {
+        }
+
+        public int getId() {
+                return id;
+        }
+
+        public void setId(int id) {
+                this.id = id;
         }
 
         public String getTitle() {
@@ -33,20 +32,12 @@ public class NoteDto {
                 this.title = title;
         }
 
-        public String getTime() {
+        public Date getTime() {
                 return time;
         }
 
-        public void setTime(String time) {
+        public void setTime(Date time) {
                 this.time = time;
-        }
-
-        public int getId() {
-                return id;
-        }
-
-        public void setId(int id) {
-                this.id = id;
         }
 
 

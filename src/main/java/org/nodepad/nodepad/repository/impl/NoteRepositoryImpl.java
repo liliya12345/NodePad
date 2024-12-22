@@ -29,10 +29,15 @@ public class NoteRepositoryImpl implements NoteRepository {
 
     @Override
     public void edit(Note note) {
-        findAll().stream().filter(note1 -> note1.getId() == note.getId()).findFirst().ifPresent(note1 -> {
-            note1.setTitle(note.getTitle());
-            note1.setTime(note.getTime());
-        });
+        System.out.println("");
+        for (Note note1 : findAll()) {
+            if(note1.getId() == note.getId()) {
+                note1.setTitle(note.getTitle());
+                note1.setTitle(note.getTitle());
+            }
+        }
+
+        System.out.println("");
     }
 
     @Override

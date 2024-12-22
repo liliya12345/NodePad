@@ -6,7 +6,10 @@ import org.nodepad.nodepad.repository.impl.NoteRepositoryImpl;
 import org.nodepad.nodepad.service.NodeService;
 import org.springframework.stereotype.Service;
 
+import java.time.Instant;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -23,8 +26,10 @@ public class NodeServiceImpl implements NodeService {
     public void addNode(NoteDto noteDto) {
         Note note = new Note();
         note.setTitle(noteDto.getTitle());
-        LocalDateTime parse = LocalDateTime.parse(noteDto.getTime());
-        note.setTime(parse);
+        Date parse = noteDto.getTime();
+        Instant instant =Instant.ofEpochMilli(parse.getTime());
+        LocalDateTime localDateTime= LocalDateTime.ofInstant(instant, ZoneOffset.UTC);
+        note.setTime(localDateTime);
         noteRepository.save(note);
     }
 
@@ -40,7 +45,10 @@ public class NodeServiceImpl implements NodeService {
         Note note = new Note();
         note.setTitle(noteDto.getTitle());
         note.setId(noteDto.getId());
-        note.setTime(LocalDateTime.parse(noteDto.getTime()));
+        Date parse = noteDto.getTime();
+        Instant instant =Instant.ofEpochMilli(parse.getTime());
+        LocalDateTime localDateTime= LocalDateTime.ofInstant(instant, ZoneOffset.UTC);
+        note.setTime(localDateTime);
         noteRepository.edit(note);
 
     }

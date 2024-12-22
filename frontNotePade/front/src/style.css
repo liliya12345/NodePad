@@ -1,13 +1,32 @@
 body{
     background-color: whitesmoke;
+    color: #f65282;
+
+}
+.navi{
+    background: rgb(243, 97, 82);
+    background: linear-gradient(90deg, rgb(99, 96, 143) 0%, rgb(131, 44, 175) 35%, rgb(211, 115, 159) 100%);
+
 }
 .nav-font{
     font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+
     font-style: normal;
     font-size: 20px;
     text-transform: uppercase;
+}
+.navbar-brand {
+    color: #f65282;
+}
+.nav-a{
+    color: #fdfcfc;
+    font-size: 15px;
+}
+#card-body{
+    color: blue;
+}
+.input.form-control{
+    color: #0c0c0c;
 }
 .note{
 
@@ -18,11 +37,38 @@ body{
     color: #0c0c0c;
     text-transform:uppercase;
     letter-spacing:2px;
-    filter: brightness(120%);
+
 }
 #card{
+    display: flex;
+    justify-content: center;
     background-color: #89a1d1;
+    margin-left: 16px;
+    font-size: 15px;
+    color: #0c0c0c;
+    height: 200px;
+
+}#card-new{
+    display: flex;
+    justify-content: center;
+    background-color: #89a1d1;
+    margin-left: 16px;
+    font-size: 15px;
+    color: #0c0c0c;
+    height: 200px;
+
 }
+
+.img-card{
+    display: flex;
+    justify-content: end;
+}
+.form-control{
+    font-weight: 500;
+    color: #0c0c0c;
+    font-size: 15px;
+}
+
 .modal-content{
     font-size: 14px !important;
     font-family: "Lora", cursive;
@@ -34,5 +80,8 @@ body{
     filter: brightness(120%);
 }
 .modal-header{
-    background-color:blue ;
+    background-color: #f0d9ef;
+}
+.btn-primary{
+    border:none;
 }
