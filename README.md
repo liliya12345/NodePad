@@ -41,7 +41,7 @@ FrontEnd
 
 
 ## Att strarta applicationen
-För att köra applicationen behövs installeras node.js och npm, bootstap , samt React.js, Spring Boot, IntellijIdea Ultimate Edition
+För att köra applicationen behövs installeras node.js och npm, bootstap , samt React.js, Spring Boot, Axios,IntellijIdea Ultimate Edition
 >npm install -g npm
 ### Download and install nvm:
 >curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
@@ -68,4 +68,10 @@ Once you're inside a terminal window inside of this react project, you can final
 
 >npm start
 
+### Instalera Bootstrap
+>npm install react-bootstrap bootstrap
+### installera Axios i ditt projekt 
+
+>npm install axios
+>
 När projektet oppnas, i projektverktygsfönstret  leta upp källan | main | java | Main. java-filen och öppna den i editorn/ IntelliJIdea. I redigeraren klickar du på rännstensikonen för att köra programmet och väljer Kör 'Main'. main()'.
