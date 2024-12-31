@@ -1,7 +1,6 @@
 # NodePad ✨
 ##### Målet med projektet NodePad är att bygga och  utveckla en enkel applikation för att hantera uppgifter.
-
-  ## NodePad-applikationen som tillåter användaren  att lägga till en ny uppgift- event, redigera en event, ta bort en uppgift, visa alla uppgifter.
+NodePad-applikationen som tillåter användaren  att lägga till en ny uppgift- event, redigera en event, ta bort en uppgift, visa alla uppgifter.
 Systemet bestå av en serverdel som hanterar API-anrop  med hjälp  av ramverk som Spring Boot och en frontend byggd med  React.js (Javascript -bibliotek som används 
 för att bygga webbgränssnitt).
 Jag har använt en extra bibliotek Animate On Scroll Library för animation.
