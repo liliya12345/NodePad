@@ -36,7 +36,7 @@ FrontEnd
 1. Componeter Cards.js
 2. Header.js
 3. Home.js
-4. App.js var man anger routers
+4. App.js med routers
 5. style.css extra fil for css
 
 
