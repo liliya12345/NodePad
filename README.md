@@ -9,7 +9,7 @@ för att bygga webbgränssnitt).
 Jag har använt en extra bibliotek Animate On Scroll Library för animation.
 
 Backend byggt på MVC design pattern (Model –View –Controller) är som separerar koden för data-modellen (M) från användargränssnitt (V och C).
-Projktet använder DTO som står för Data Transfer Object, vilket är ett designmönster. Programmet använder service, model, repository.
+Projektet använder DTO som står för Data Transfer Object, vilket är ett designmönster. Programmet använder service, model, repository.
  Service är en Java-klass som innehåller Business Logic, inkapsling av applikationsfunktionalitet.
 Application använder Spring Boot CRUD Operations som GET,PUT,POST,DELETE.
 Uppgifterna lagras i en enkel datastruktur som en ArrayList.
@@ -19,15 +19,16 @@ Jag  skickar GET-, POST-, PUT- och DELETE-begäranden till en server med hjälp 
 ## Att strarta programmet
 För att köra applicationen behövs installeras node js och npm
 npm install -g npm
-## Download and install nvm:
+### Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-# Download and install Node.js:
+### Download and install Node.js:
 nvm install 22
-# Verify the Node.js version:
+### Verify the Node.js version:
 node -v # Should print "v22.12.0".
 nvm current # Should print "v22.12.0".
-# Verify npm version:
+### Verify npm version:
 npm -v # Should print "10.9.0".
+
 
 
 
