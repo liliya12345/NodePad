@@ -85,11 +85,8 @@ Att starta fronend  leta upp källan FrontNodePade->front->package.json sen väl
 För att skicka en GET-begäran med hjälp av Axios så behöver du bara skicka in webbadressen till metoden get(), som returnerar ett
 löfte. Svaret som returneras från löftet kan nås med hjälp av metoden then().
 Låt oss se ett exempel:
- > axios.get("http://localhost:8080/getAllNote")
-    >        .then((response) => {
-     >           const notes = response.data
-      >          setNotes(notes)
-       >     })
+ > axios.get("http://localhost:8080/getAllNote").then((response) => {const notes = response.data
+setNotes(notes) })
 
         
 
