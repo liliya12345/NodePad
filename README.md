@@ -19,7 +19,7 @@ Jag  skickar GET-, POST-, PUT- och DELETE-begäranden till en server med hjälp 
 ## Att strarta programmet
 För att köra applicationen behövs installeras node js och npm
 npm install -g npm
-# Download and install nvm:
+## Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 # Download and install Node.js:
 nvm install 22
