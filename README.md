@@ -24,11 +24,11 @@ BackEnd
    Note class med implementerande specifika attribut, getter/setter metoder
 2.  Dto
 NoteDto class med implementerande specifika attribut, getter/setter metoder
-3.Service
+3.  Service
 inkluderar interface NodeService och impementerande class NodeServiceImpl av NodeService med metoder
-4.Repository
+4.  Repository
 inkluderar interface NodeRepository och impementerande class NoteRepositoryImpl av NodeRepository med metoder
-5. Interfaces:
+5.  Interfaces:
  ett interface NodeRepository med metoder för att spara note, hitta alla,radera, redigera note.
  ett interface NodeService med metoder för att spara noteDTO, hitta alla,radera noteDTO, redigera enoteDTO.
 
