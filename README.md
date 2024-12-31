@@ -81,7 +81,17 @@ Once you're inside a terminal window inside of this react project, you can final
 När projektet oppnas, i projektverktygsfönstret  leta upp källan | main | java | NodePadApplication. java-filen och öppna den i editorn/ IntelliJIdea. I redigeraren klickar du på rännstensikonen för att köra programmet och väljer Kör 'NodePadApplication. main()'.
 Att starta fronend  leta upp källan FrontNodePade->front->package.json sen välja man start.
 
+## Hur man skickar en GET-begäran i JavaScript med hjälp av Axios
+För att skicka en GET-begäran med hjälp av Axios så behöver du bara skicka in webbadressen till metoden get(), som returnerar ett
+löfte. Svaret som returneras från löftet kan nås med hjälp av metoden then().
+Låt oss se ett exempel:
+ axios.get("http://localhost:8080/getAllNote")
+            .then((response) => {
+                const notes = response.data
+                setNotes(notes)
+            })
 
+        
 
 
 
