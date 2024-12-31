@@ -58,7 +58,7 @@ Now that you have NodeJS and NPM installed, You should now be able to install Re
 
 >npm install --save react react-dom
 
->Creating a ReactJS project:
+###Creating a ReactJS project:
 
 Now that you have ReactJS installed, you can create a new react project directory by running:
 
