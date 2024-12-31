@@ -1,4 +1,4 @@
-# NodePad ✨
+# NodePad med Spring Boot och React.js ✨
 front körs på port http://localhost:5000
 backend  http://localhost:8080
 
