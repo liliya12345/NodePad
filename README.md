@@ -57,10 +57,12 @@ Installing ReactJS
 Now that you have NodeJS and NPM installed, You should now be able to install ReactJS in your project's directory by running:
 
 >npm install --save react react-dom
-Creating a ReactJS project:
+
+>Creating a ReactJS project:
 Now that you have ReactJS installed, you can create a new react project directory by running:
 
 >npx create-react-app my-react-project
+
 Once you're inside a terminal window inside of this react project, you can finally run the following command to start a development server on "localhost:3000":
 >npm start
 
