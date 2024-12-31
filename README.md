@@ -78,8 +78,9 @@ Once you're inside a terminal window inside of this react project, you can final
 
 > npm install aos --save
 
-När projektet oppnas, i projektverktygsfönstret  leta upp källan | main | java | Main. java-filen och öppna den i editorn/ IntelliJIdea. I redigeraren klickar du på rännstensikonen för att köra programmet och väljer Kör 'NodePadApplication. main()'.
-Att starta fronend  väljer man i FrontNodePade->front->package.json-> start
+När projektet oppnas, i projektverktygsfönstret  leta upp källan | main | java | NodePadApplication. java-filen och öppna den i editorn/ IntelliJIdea. I redigeraren klickar du på rännstensikonen för att köra programmet och väljer Kör 'NodePadApplication. main()'.
+Att starta fronend  leta upp källan FrontNodePade->front->package.json sen välja man start.
+
 
 
 
