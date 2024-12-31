@@ -73,5 +73,21 @@ Once you're inside a terminal window inside of this react project, you can final
 ### installera Axios i ditt projekt 
 
 >npm install axios
->
-När projektet oppnas, i projektverktygsfönstret  leta upp källan | main | java | Main. java-filen och öppna den i editorn/ IntelliJIdea. I redigeraren klickar du på rännstensikonen för att köra programmet och väljer Kör 'Main'. main()'.
+
+### installera Axos i ditt projekt 
+
+> npm install aos --save
+
+När projektet oppnas, i projektverktygsfönstret  leta upp källan | main | java | Main. java-filen och öppna den i editorn/ IntelliJIdea. I redigeraren klickar du på rännstensikonen för att köra programmet och väljer Kör 'NodePadApplication. main()'.
+Att starta fronend  väljer man i FrontNodePade->front->package.json-> start
+
+
+
+
+
+
+
+
+
+
+
